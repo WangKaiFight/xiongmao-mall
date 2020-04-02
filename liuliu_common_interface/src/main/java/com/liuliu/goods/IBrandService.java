@@ -4,7 +4,7 @@ import com.liuliu.pojo.goods.Brand;
 
 import java.util.List;
 
-public interface IBrandGoods {
+public interface IBrandService {
 
     public List<Brand> brandList();
 
