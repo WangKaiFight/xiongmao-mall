@@ -14,7 +14,7 @@
         <property name="minIdle" value="5" />
     </bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.liuliu.dao"/>
+        <property name="basePackage" value="com.liuliu.mapper"/>
     </bean>
     <bean id="sqlSessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
