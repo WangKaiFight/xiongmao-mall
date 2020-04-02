@@ -7,7 +7,7 @@ public enum ResponseCode {
     FORBIDDEN(403,"Forbidden"),
     SERVERERROR(500,"Server Internal Error"),
     UNAUTHORIZED(401,"unauthorized"),
-    CUSTOMEERROR(700,"Cusstom Error");
+    CUSTOMEERROR(888,"Cusstom Error");
 
     private final int code;
     private final String desc;
