@@ -1,4 +1,10 @@
 package com.liuliu.mapper;
 
-public class BrandMapper {
+
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.liuliu.pojo.goods.Brand;
+
+public interface BrandMapper extends BaseMapper<Brand> {
+
 }
