@@ -1,6 +1,7 @@
 package com.liuliu.config.entity;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.liuliu.config.entity.ResponseCode;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -35,8 +36,8 @@ public class ResponseData<T>  implements Serializable {
         return  this;
     }
     public ResponseData(int status, String message){
-            this.status = status;
-            this.message=message;
+        this.status = status;
+        this.message=message;
     }
 
     public static<T> ResponseData<T> success(){
